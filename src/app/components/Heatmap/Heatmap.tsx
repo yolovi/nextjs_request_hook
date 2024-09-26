@@ -1,3 +1,7 @@
+
+//Copia del componente Heatmap creado por Jonathan. 
+//Utiliza el hook useFetch
+
 "use client";
 import { useRequest } from "@/app/hooks/useRequest"; // Importar el hook centralizado
 import { useEffect, useState } from "react";

@@ -34,3 +34,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+---
+---
+## Nota:
+Esta es una copia de la aplicación Altour desarrollada con los compañeros de IGROWORKER.
+
+Está por terminar. Pero lo intersante es que hay dos tipos de hooks para manejar las peticiones a la API del equipo de back.
+
+Los hooks son:
+- `useFetch`: para obtener datos de la API.
+- `useRequest`: también para obtener los datos de la API
+
+La diferencia está en que `useRequest` no solo maneja la petición de un componente en concreto sino que está diseñado para hacer cualquier tipo de petición por lo que no se encuentra datos específicos de ningún componente en concreto.
+
+A diferencia de `useFetch`que es poco reutilizable ya que le pasa datos concretos del componente "HeatMap"
+
+

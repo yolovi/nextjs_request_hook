@@ -1,3 +1,8 @@
+
+//Componente original creado por Jonathan
+//Utiliza el hook useFetch
+//Le he cambiado el nombre a HeatmapOriginal para que en la ruta importe el componente Heatmap que usa el hook useRequest
+
 "use client";
 import { useEffect, useState } from "react";
 import {

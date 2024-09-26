@@ -1,3 +1,6 @@
+//archivo TEMPORAL solo para comprobar sin validaciones de login (deja pasar con cualqueir email aunque no esté registrado)
+//TODO: borrar al terminar las pruebas (cuando ya funcione con la API del backend)
+
 import NextAuth from "next-auth";
 //OAuth Google Authentication
 import GoogleProvider from "next-auth/providers/google";
